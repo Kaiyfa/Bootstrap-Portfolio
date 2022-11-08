@@ -6,91 +6,26 @@
     <title>
         ADAMA PORTFOLIO
     </title>
-
+     <!-- Required meta tags -->
+    <meta charset="utf-8" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
-    <script>
-        var _gaq = _gaq || [];
-        var pluginUrl =
-            '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-        _gaq.push(['_setAccount', 'UA-38323450-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })(); 
-    </script>
-
     <link rel="stylesheet" media="screen"
         href="https://www.name-coach.com/assets/application-32490cac06b873030978415dff735e1adb5a6ee2c9dfe0cdd90818cb8b6bdcd6.css" />
     <script
         src="https://www.name-coach.com/assets/application-73b4c01c62407f09863903739e65e913fddacb1b1a5d4b7e3cc5091b23240f3a.js"></script>
-    <script src="https://js.stripe.com/v1/" async="async"></script>
-    <!-- Meta -->
-    <meta charset="utf-8" />
+    <script src="https://js.stripe.com/v1/" async="async"></script> 
     <script
         type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "errorBeacon": "bam.nr-data.net", "licenseKey": "94fc25614c", "applicationID": "112325102", "transactionName": "cAxXEUBYCAgGSxhEF1YRSkpcVgkBPElFXgJaD1w=", "queueTime": 0, "applicationTime": 99, "agent": "" }</script>
-
-    <!-- <style type="text/css">
-        @font-face {
-            font-family: franklin-gothic-urw;
-            src: url(https://use.typekit.net/af/9cb78a/0000000000000000000118ad/27/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/9cb78a/0000000000000000000118ad/27/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/9cb78a/0000000000000000000118ad/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        @font-face {
-            font-family: franklin-gothic-urw;
-            src: url(https://use.typekit.net/af/2e6f07/000000000000000000011ce6/27/l?subset_id=2&fvd=n5&v=3) format("woff2"), url(https://use.typekit.net/af/2e6f07/000000000000000000011ce6/27/d?subset_id=2&fvd=n5&v=3) format("woff"), url(https://use.typekit.net/af/2e6f07/000000000000000000011ce6/27/a?subset_id=2&fvd=n5&v=3) format("opentype");
-            font-weight: 500;
-            font-style: normal;
-        }
-
-        @font-face {
-            font-family: franklin-gothic-urw;
-            src: url(https://use.typekit.net/af/b825af/0000000000000000000118b1/27/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/b825af/0000000000000000000118b1/27/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/b825af/0000000000000000000118b1/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
-            font-weight: 700;
-            font-style: normal;
-        }
-
-        @font-face {
-            font-family: franklin-gothic-urw;
-            src: url(https://use.typekit.net/af/938fa1/00000000000000003b9aea19/27/l?subset_id=2&fvd=i3&v=3) format("woff2"), url(https://use.typekit.net/af/938fa1/00000000000000003b9aea19/27/d?subset_id=2&fvd=i3&v=3) format("woff"), url(https://use.typekit.net/af/938fa1/00000000000000003b9aea19/27/a?subset_id=2&fvd=i3&v=3) format("opentype");
-            font-weight: 300;
-            font-style: italic;
-        }
-
-        @font-face {
-            font-family: franklin-gothic-urw;
-            src: url(https://use.typekit.net/af/a5188d/0000000000000000000118b0/27/l?subset_id=2&fvd=i5&v=3) format("woff2"), url(https://use.typekit.net/af/a5188d/0000000000000000000118b0/27/d?subset_id=2&fvd=i5&v=3) format("woff"), url(https://use.typekit.net/af/a5188d/0000000000000000000118b0/27/a?subset_id=2&fvd=i5&v=3) format("opentype");
-            font-weight: 500;
-            font-style: italic;
-        }
-
-        @font-face {
-            font-family: franklin-gothic-urw;
-            src: url(https://use.typekit.net/af/9a7284/0000000000000000000118b2/27/l?subset_id=2&fvd=i7&v=3) format("woff2"), url(https://use.typekit.net/af/9a7284/0000000000000000000118b2/27/d?subset_id=2&fvd=i7&v=3) format("woff"), url(https://use.typekit.net/af/9a7284/0000000000000000000118b2/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
-            font-weight: 700;
-            font-style: italic;
-        }
-    </style> -->
-
-
 </head>
 
 <body>
     <header>
+         <!-- Navigation -->
         <nav aria-label='Page' class='one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top'
             role='navigation'>
             <div class='container'>
@@ -100,16 +35,14 @@
                         <span aria-label='open menu' class='sr-only' role='button'>Toggle navigation</span>
                         <span aria-label='open menu icon 1' class='icon-bar' role='button'></span>
                         <span aria-label='open menu icon 2' class='icon-bar' role='button'></span>
-                </button>
+                    </button>
                 </div>
                 <div class='collapse navbar-collapse navbar-ex1-collapse'>
                     <div class='menu-container'>
                         <ul class='nav navbar-nav'>
- 
- 
                             <li>
-                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"
-                                    href="#">About ME</a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">About
+                                    ME</a>
                                 <ul class='dropdown-menu'>
                                     <li><a href="#work">Work</a></li>
                                     <li><a href="#contact">Contact</a></li>
@@ -123,60 +56,47 @@
                                     <li><a href="#skills">Skills</a></li>
                                 </ul>
                             </li>
- 
                         </ul>
+
                     </div>
                 </div>
             </div>
         </nav>
-
+  <!-- Hero Section and jumbotron-->
         <div class="jumbotron jumbotron-fluid">
-           
+            <div class="parallax-team parallaxBg" style="background-position: 50% -494px;">
 
-            <div class="parallax-team parallaxBg"   style="background-position: 50% -494px;" >
-        
                 <div class="container content">
-                  <br/><br/>
-
-                  <div class="title-box-v2">
-                    <h1 class="bigh1">Let employers <span class="color-purple">really know</span> <br></br>Adama!</h1>
-
-                  </div>
                     <br /><br />
-                    <img src="images/adama-sall.jpg" alt="" style="position:relative;
-/* width: 100px;
-height: 100px; */
-display: block;
-  margin-left: auto;
-  margin-right: auto;
- border-radius: 50%;">
-        
+
+                    <div class="title-box-v2">
+                        <h1 class="bigh1">Let employers <span class="color-purple">really know</span> <br></br>Adama!
+                        </h1>
+
+                        <br /><br />
+                        <img src="images/adama-sall.jpg" alt="" style="position:relative;
+                                                 width: 100%;
+                                                 height: 100%;
+                                                 display: absolute;
+                                                 margin-left: auto;
+                                                margin-right: auto;
+                                                border-radius: 50%;">
+                    </div>
                     <br /><br /><br /><br /><br /><br />
                 </div>
             </div>
 
         </div>
     </header>
-
-
-
-
-
-
+    <!-- container -->
     <main id="main-section">
-
-
-
-
-
-
-        <div class="container content">
+        <div class="container content" id="bio">
             <br /><br />
-
+            <!-- About me -->
             <div class="title-box">
-                <div class="title-box-text"id="bio"><span class="color-purple" >About Me</span></div>
+                <h2 class="color-purple">About Me</h2>
             </div>
-            <div class="text-about2">
+            <div class="text-about">
                 <p>
                     I am a Senior Technician in heavy equipment with 5 years of experience in this field. I have
                     recently decided to pivot and embrace the tech field. I am particularly interested in machine
@@ -187,102 +107,101 @@ display: block;
 
                 </p>
             </div>
-        
-        <div class="title-box">
-            <div class="title-box-text"><span class="color-purple" id="work">Work</span></div>
-        </div>
-        <br /><br />
+            <!-- Work -->
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="view view-tenth">
-                    <img class="img-responsive" src="images/6.card.png" alt="" />
-
-                    <div class="mask">
-                        <h2>Prework-Study-Guide</h2>
-
-                        <p> It was my first coding challenge before starting Bootcamp classes</p>
-                        <a href="https://github.com/Kaiyfa/prework-study-guide" target="_blank" class="info">See
-                            github
-                            Page</a>
+            <div class="title-box" id="work">
+                <h2><span class="color-purple">Work</span></h2>
+            </div>
+            <br /><br />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="view view-tenth">
+                        <img class="img-responsive" src="images/6.card.png" alt="" />
+                        <div class="mask">
+                            <h2>Prework-Study-Guide</h2>
+                            <p> It was my first coding challenge before starting Bootcamp classes</p>
+                            <a href="https://github.com/Kaiyfa/prework-study-guide" target="_blank" class="info">See
+                                github
+                                Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="view view-tenth">
+                        <img class="img-responsive" src="images/02-portfolio-2.jpg" alt="" />
+                        <div class="mask">
+                            <h2>Code-Refactor-Challenge</h2>
+                            <p>A broken code was given to me in order to refactor it</p>
+                            <a href="https://github.com/Kaiyfa/code-refactor-challenge" target="_blank" class="info">See
+                                github
+                                Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="view view-tenth">
+                        <img class="img-responsive" src="images/3_card.png" alt="" />
+                        <div class="mask">
+                            <h2>Adama-portfolio</h2>
+                            <p> Third challenge, practicing grid, flex box and media querie </p>
+                            <a href="https://github.com/Kaiyfa/Adama-portfolio" target="_blank" class="info">See
+                                github
+                                Page</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="view view-tenth">
-                    <img class="img-responsive" src="images/02-portfolio-2.jpg" alt="" />
+            <br /><br />
+            <!-- skills -->
 
-                    <div class="mask">
-                        <h2>Code-Refactor-Challenge</h2>
+            <div class="title-box">
+                <h2><span class="color-purple">Skills</span></h2>
+            </div>
 
-                        <p>A broken code was given to me in order to refactor it</p>
-                        <a href="https://github.com/Kaiyfa/code-refactor-challenge" target="_blank" class="info">See
-                            github
-                            Page</a>
+            <!-- <div class="col-md-4"> -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="view view-tenth">
+
+                        <!-- <div class="skills"> -->
+                        <img class="img-responsive" src="images/5_card.png" id="skills" alt="" />
+
+                        <div class="mask">
+                            <h2>skills </h2>
+
+                            <p> Here is a list of skills that I am expecting to learn from bootcamp
+                            <ul>
+                                <li>
+                                    Front-End Foundations
+                                    <a href="https://courses.bootcampspot.com/courses/3012/pages/0-dot-3-2-what-youll-learn-in-the-skills-boot-camp-in-front-end-web-development?module_item_id=800148"
+                                        target="_blank" class="info">See
+                                        BCS</a>
+
+                                </li>
+                                <li>
+                                    Front-End Frameworks
+                                    <a href="https://courses.bootcampspot.com/courses/3012/pages/0-dot-3-2-what-youll-learn-in-the-skills-boot-camp-in-front-end-web-development?module_item_id=800148"
+                                        target="_blank" class="info">See
+                                        BCS</a>
+
+                                </li>
+
+                            </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <!-- </div> -->
             </div>
-            <div class="col-md-4">
-                <div class="view view-tenth">
-                    <img class="img-responsive" src="images/02-portfolio-1.jpg" alt="" />
-
-                    <div class="mask">
-                        <h2>Adama-portfolio</h2>
-
-                        <p> Third challenge, practicing grid and flex box </p>
-                        <a href="https://github.com/Kaiyfa/Adama-portfolio" target="_blank" class="info">See
-                            github
-                            Page</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br /><br />
-
-
-
-
 
         </div>
-
-
-        <div class="col-md-4">
-            <div class="view view-tenth">
-                <img class="img-responsive" src="images/rock_nation.png" alt="" />
-
-                <div class="mask" id="skills">
-                    <h2>skills</h2>
-
-                    <p> Here is a list of skills that I am expecting to learn from bootcamp
-                    <ul>
-                        <li>
-                            Front-End Foundations
-                            <a href="https://courses.bootcampspot.com/courses/3012/pages/0-dot-3-2-what-youll-learn-in-the-skills-boot-camp-in-front-end-web-development?module_item_id=800148"
-                                target="_blank" class="info">See
-                                BCS</a>
-
-                        </li>
-                        <li>
-                            Front-End Frameworks
-                            <a href="https://courses.bootcampspot.com/courses/3012/pages/0-dot-3-2-what-youll-learn-in-the-skills-boot-camp-in-front-end-web-development?module_item_id=800148"
-                                target="_blank" class="info">See
-                                BCS</a>
-
-                        </li>
-
-                    </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
 
 
     </main>
+    <!-- footer contact -->
 
 
-    <footer class='Footer' role='contentinfo'>
+    <footer class='Footer'>
         <div class='_content'>
             <div class='_layout'>
                 <div class='col-lg-12 col-md-12 col-sm-12'>
@@ -290,8 +209,6 @@ display: block;
                         CONTACT ME
                     </h2>
                 </div>
-
-
             </div>
         </div>
         <div class='row'>
@@ -322,7 +239,8 @@ display: block;
         </div>
     </footer>
 
-
+<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
